@@ -41,6 +41,7 @@ void loop() {
     ejecutarAccion(accion);
   }
 
+  Timon::actualizar();
   Motor::actualizar();
 
   comprobarSeguridad();
